@@ -108,7 +108,7 @@
         <x:Boolean x:Key="IsExpanded">True</x:Boolean>
       </scg:Dictionary>
     </sap:WorkflowViewStateService.ViewState>
-    <ui:Comment sap:VirtualizedContainerService.HintSize="486.6666666666667,264.6666666666667" sap2010:WorkflowViewState.IdRef="Comment_1" Text="1. Stworz robota, ktorego zadaniem bedzie dodanie Queue Items w ramach danych z pliku &quot;Transactions.xlsx&quot; do Queue o nazwie &quot;ZadanieOrchestrator&quot; (najpierw tworzymy Queue). Queue w folderze My Workspace&#xA;2. Dodaj Log Message z informacja jakie dane zostaly dodane do queue." />
+    <ui:Comment sap:VirtualizedContainerService.HintSize="486.6666666666667,264.6666666666667" sap2010:WorkflowViewState.IdRef="Comment_1" Text="1.  Stworz robota, ktorego zadaniem bedzie dodanie Queue Items w ramach danych z pliku &quot;Transactions.xlsx&quot; do Queue o nazwie &quot;ZadanieOrchestrator&quot; (najpierw tworzymy Queue). Queue w folderze My Workspace&#xA;2. Dodaj Log Message z informacja jakie dane zostaly dodane do queue." />
     <TryCatch DisplayName="Try Catch" sap:VirtualizedContainerService.HintSize="486.6666666666667,1092.6666666666667" sap2010:WorkflowViewState.IdRef="TryCatch_1">
       <sap:WorkflowViewStateService.ViewState>
         <scg:Dictionary x:TypeArguments="x:String, x:Object">
