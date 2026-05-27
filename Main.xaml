@@ -99,7 +99,7 @@
       <x:Boolean x:Key="ShouldExpandAll">True</x:Boolean>
     </scg:Dictionary>
   </sap:WorkflowViewStateService.ViewState>
-  <Sequence DisplayName="Main Sequence t" sap:VirtualizedContainerService.HintSize="576.6666666666666,2163.3333333333335" sap2010:WorkflowViewState.IdRef="Sequence_1">
+  <Sequence DisplayName="Main Sequence t" sap:VirtualizedContainerService.HintSize="576.6666666666666,2182.6666666666665" sap2010:WorkflowViewState.IdRef="Sequence_1">
     <Sequence.Variables>
       <Variable x:TypeArguments="sd:DataTable" Name="dt_transakcje" />
     </Sequence.Variables>
@@ -108,7 +108,7 @@
         <x:Boolean x:Key="IsExpanded">True</x:Boolean>
       </scg:Dictionary>
     </sap:WorkflowViewStateService.ViewState>
-    <ui:Comment sap:VirtualizedContainerService.HintSize="486.6666666666667,264.6666666666667" sap2010:WorkflowViewState.IdRef="Comment_1" Text="1.  Stworz robota, ktorego zadaniem bedzie dodanie Queue Items w ramach danych z pliku &quot;Transactions.xlsx&quot; do Queue o nazwie &quot;ZadanieOrchestrator&quot; (najpierw tworzymy Queue). Queue w folderze My Workspace&#xA;2. Dodaj Log Message z informacja jakie dane zostaly dodane do queue." />
+    <ui:Comment sap:VirtualizedContainerService.HintSize="486.6666666666667,284" sap2010:WorkflowViewState.IdRef="Comment_1" Text="1.  Stworz robota, ktorego zadaniem bedzie dodanie Queue Items w ramach danych z pliku &quot;Transactions.xlsx&quot; do Queue o nazwie &quot;ZadanieOrchestrator&quot; (najpierw tworzymy Queue). Queue w folderze My Workspace&#xA;2. Dodaj Log Message z informacja jakie dane zostaly dodane do queue..." />
     <TryCatch DisplayName="Try Catch" sap:VirtualizedContainerService.HintSize="486.6666666666667,1092.6666666666667" sap2010:WorkflowViewState.IdRef="TryCatch_1">
       <sap:WorkflowViewStateService.ViewState>
         <scg:Dictionary x:TypeArguments="x:String, x:Object">
@@ -189,7 +189,7 @@
           <x:Boolean x:Key="IsExpanded">True</x:Boolean>
         </scg:Dictionary>
       </sap:WorkflowViewStateService.ViewState>
-      <ui:ForEachRow ColumnNames="{x:Null}" CurrentIndex="{x:Null}" DataTable="[dt_transakcje]" DisplayName="For Each Row in Data Table" sap:VirtualizedContainerService.HintSize="416,57" sap2010:WorkflowViewState.IdRef="ForEachRow_1">
+      <ui:ForEachRow ColumnNames="{x:Null}" CurrentIndex="{x:Null}" DataTable="[dt_transakcje]" DisplayName="For Each Row in Data Table" sap:VirtualizedContainerService.HintSize="416,57.333333333333336" sap2010:WorkflowViewState.IdRef="ForEachRow_1">
         <ui:ForEachRow.Body>
           <ActivityAction x:TypeArguments="sd:DataRow">
             <ActivityAction.Argument>
